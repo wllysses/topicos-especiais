@@ -14,8 +14,8 @@ export const Modal = (props: Props) => {
         <>
             {
                 props.open ?
-                    <div className="h-screen w-screen bg-black bg-opacity-30 absolute top-0 left-0 flex items-center justify-center">
-                        <div className="bg-white p-4 rounded shadow-2xl max-w-lg w-full">
+                    <div className="h-screen w-screen bg-black bg-opacity-20 absolute top-0 left-0 flex items-center justify-center">
+                        <div className="bg-white p-4 rounded drop-shadow-2xl max-w-lg w-full">
                             {
                                 !Object.keys(props.data).length ? <SpinnerLoading /> :
                                     <>
