@@ -1,10 +1,11 @@
+import { Dispatch, SetStateAction } from "react"
 import { VehicleDataProps } from "../../interfaces"
 import { SpinnerLoading } from "../Spinner"
 
 interface Props {
     data: VehicleDataProps
     open: boolean
-    handleOpenModal: (open: boolean) => void
+    handleOpenModal: Dispatch<SetStateAction<boolean>>
 }
 
 
@@ -15,7 +16,7 @@ export const Modal = (props: Props) => {
             {
                 props.open ?
                     <div className="h-screen w-screen bg-black bg-opacity-20 absolute top-0 left-0 flex items-center justify-center">
-                        <div className="bg-white p-4 rounded drop-shadow-2xl max-w-lg w-full">
+                        <div className="bg-white p-4 rounded drop-shadow-2xl max-w-lg w-full -mt-72">
                             {
                                 !Object.keys(props.data).length ? <SpinnerLoading /> :
                                     <>
@@ -39,7 +40,7 @@ export const Modal = (props: Props) => {
                                             </li>
                                         </ul>
                                         <div className="flex justify-end">
-                                            <button className="font-bebas text-white bg-primary-color w-24 h-7 rounded shadow-2xl" onClick={() => props.handleOpenModal(!props.open)}>Fechar</button>
+                                            <button className="font-bebas text-white text-lg bg-primary-color w-24 h-8 rounded shadow-2xl" onClick={() => props.handleOpenModal(!props.open)}>Fechar</button>
                                         </div>
                                     </>
                             }
