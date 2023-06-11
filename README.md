@@ -30,3 +30,10 @@ https://deividfortuna.github.io/fipe/
 
 ![App Screenshot](https://uploaddeimagens.com.br/images/004/432/113/original/homepage2.PNG?1681579547)
 
+## Tecnologias utilizadas
+
+![Typescript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg) 
+![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) 
+![TailwindCSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg) 
+![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg) 
+![Github](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg) 
