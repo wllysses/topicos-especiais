@@ -48,7 +48,7 @@ export const Home = () => {
                 FIPE<span className="text-secondary-color">WEB</span>
             </h1>
 
-            <form className="max-w-md w-full flex flex-col gap-4" onSubmit={fetchVehicleFullData}>
+            <form className="max-w-md w-full flex flex-col gap-4 max-sm:px-4" onSubmit={fetchVehicleFullData}>
                 <div className="flex flex-col gap-2">
                     <label className="font-semibold font-source">Tipo de veículo</label>
                     <select
