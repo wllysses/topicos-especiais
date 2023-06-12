@@ -43,3 +43,6 @@ https://deividfortuna.github.io/fipe/
 
 ## Deploy
 https://topicos-especiais.vercel.app/
+
+## Vídeo de apresentação
+https://www.youtube.com/watch?v=qsdyjwWS27Q
